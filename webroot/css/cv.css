@@ -1,0 +1,45 @@
+body{
+
+    width: 780px;
+    margin: auto;
+    font-family: 'Inria Serif', serif;
+    background-color: burlywood;
+    font-size: 16px;
+}
+header{
+    height:250px;
+}
+#pp{
+    width: 150px;
+    height: 150px;
+    padding-top: 15px;
+}
+.photo{
+    float:right;
+}
+.infoPerso{
+    float:left;
+}
+.section-g{
+    float:left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section-d{
+    float: right;
+    margin-top: 13px;
+}
+section{
+
+    height: 350px;
+    padding: 25px;
+}
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#formation-g{
+    line-height: 2.4;
+}
+
