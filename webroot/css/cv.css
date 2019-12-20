@@ -5,6 +5,13 @@ body{
     font-family: 'Inria Serif', serif;
     background-color: burlywood;
     font-size: 16px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 header{
     height:250px;
@@ -12,6 +19,8 @@ header{
 #pp{
     width: 150px;
     height: 150px;
+    position: relative;
+    right:20%;
     padding-top: 15px;
 }
 .photo{
@@ -27,12 +36,16 @@ header{
 }
 .section-d{
     float: right;
-    margin-top: 13px;
+    margin-top: 18px;
 }
 section{
 
     height: 350px;
     padding: 25px;
+    margin-bottom: 70px;
+}
+h2{
+    border-bottom: 2px solid brown;
 }
 .titre{
     font-weight: bold;
@@ -40,6 +53,33 @@ section{
     
 }
 #formation-g{
-    line-height: 2.4;
+    line-height: 3;
 }
+#hehP{
+    margin-top: 36px;
+}
+#becode{
+    margin-top: 35px;
+}
+#taff{
+    line-height: 3.0;
+}
+#connaissance{
 
+    line-height: 1.9;
+    margin-right: 50px;
+    
+}
+#langue{
+
+    margin-top: 20px;
+}
+#interet{
+
+    margin-top: 3px;
+    line-height: 2.0;
+
+}
+#danse{
+    padding-top: 5px;
+}
