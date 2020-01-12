@@ -1,85 +1,127 @@
+/* body*/
 body{
-
-    width: 780px;
     margin: auto;
-    font-family: 'Inria Serif', serif;
-    background-color: burlywood;
-    font-size: 16px;
-    border: 2px solid brown;
-    border-radius: 5px;
-    background-size: cover;
+    width: 800px;
+    background-color:#AD343E;
+    
+}
+.container{
+    color: white;
+}
+.sameColorBack{
+    background-color:#1f1f1f;
+    border-radius: 10px;
+}
+
+h1, h2{
+    
+    text-align: center;
+    padding: 10px;
+    
+}
+/*partie profil*/
+.profil{
+    display:flex;
+    flex-direction: row;
+    margin: 25px 0 25px 0;
+    justify-content: space-around;
+}
+img{
+    width:150px;
+    margin-top: 20px;
+    border: 1px solid #1f1f1f;
+    border-radius: 150px;
+}
+.gauche{
+    padding-right: 140px;
+}
+/*partie reseau*/
+.reseau{
+    padding: 5px;
+}
+li{
+    display: inline-block;
+    width: 150px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 35px;
+    padding-top: 10px;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
-header{
-    height:250px;
+/*partie formation*/
+.formation{
+    display: grid;
+    grid-template-areas: "h2 h2"
+                         "droite gauche"
+                         "droite gauche";
+    margin: 25px 0 25px 0;
 }
-#pp{
-    width: 150px;
-    height: 150px;
-    position: relative;
-    right:20%;
-    padding-top: 15px;
-}
-.photo{
-    float:right;
-}
-.infoPerso{
-    float:left;
-}
-.section-g{
-    float:left;
-    font-size: 20px;
-    font-weight: bold;
-}
-.section-d{
-    float: right;
-    margin-top: 18px;
-}
-section{
-
-    height: 350px;
-    padding: 25px;
-    margin-bottom: 70px;
-}
-h2{
-    border-bottom: 2px solid brown;
+.formation h2{
+    grid-area: h2;
 }
 .titre{
-    font-weight: bold;
-    font-size: 20px;
-    
+    font-weight: bolder;
 }
-#formation-g{
-    line-height: 3;
+.formation .droite{
+    grid-area: droite;
 }
-#hehP{
-    margin-top: 36px;
+.formation .gauche{
+    grid-area: gauche;
 }
-#becode{
-    margin-top: 35px;
+.droite{
+    padding-left: 50px;
 }
-#taff{
-    line-height: 3.0;
+.paddingP{
+    padding-bottom: 35px;
 }
-#connaissance{
+.paddingP2{
+    padding-bottom: 22px;
+}
+.paddingP3{
+    padding-bottom: 15px;
+}
+/* experience proffessionnelles*/
+.professionnelle{
+    display: grid;
+    grid-template-areas: "h2 h2";
+    padding-left: 50px;
+}
+.professionnelle h2{
+    grid-area: h2;
+}
 
-    line-height: 1.9;
-    margin-right: 50px;
-    
+.reassort{
+    padding-right: 80px;
 }
-#langue{
-
-    margin-top: 20px;
+/*langages*/
+.langages{
+    margin: 25px 0 25px 0;
+    display: grid;
+    grid-template-areas: "h2 h2";
 }
-#interet{
+.langages h2{
+    grid-area: h2;
+}
+.langues{
+    padding-left: 50px;
+}
 
-    margin-top: 3px;
-    line-height: 2.0;
+/*centre d'intérêt*/
+
+.interet{
+    display: grid;
+    grid-template-areas: "h2 h2";
 
 }
-#danse{
-    padding-top: 5px;
+.interet h2{
+    grid-area: h2;
+}
+
+.centreInteret{
+    padding-left: 50px;
 }
